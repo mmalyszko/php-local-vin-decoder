@@ -1,7 +1,16 @@
 
 # Lightweight VIN Decoder for PHP 8+
 
+![Packagist Version](https://img.shields.io/packagist/v/mmalyszko/vinfast-php)
+[![CI](https://github.com/mmalyszko/vinfast-php/actions/workflows/ci.yml/badge.svg)](https://github.com/mmalyszko/vinfast-php/actions/workflows/ci.yml)
+
 Decode vehicle brand, model, year, country and region from a VIN number using a fast, local PHP library — no external API calls, no rate limits.
+
+## Installation
+
+```
+composer require mmalyszko/vinfast-php
+```
 
 ## Usage
 
