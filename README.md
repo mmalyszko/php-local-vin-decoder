@@ -1,22 +1,20 @@
-⚠️ PROJECT MOVED: This library has been renamed to php-local-vin-decoder. The new namespace is VinDecoder. Please update your dependencies to the new package to receive future updates.
-
 # Lightweight VIN Decoder for PHP 8+
 
-![Packagist Version](https://img.shields.io/packagist/v/mmalyszko/vinfast-php)
-[![CI](https://github.com/mmalyszko/vinfast-php/actions/workflows/ci.yml/badge.svg)](https://github.com/mmalyszko/vinfast-php/actions/workflows/ci.yml)
+![Packagist Version](https://img.shields.io/packagist/v/mmalyszko/php-local-vin-decoder)
+[![CI](https://github.com/mmalyszko/php-local-vin-decoder/actions/workflows/ci.yml/badge.svg)](https://github.com/mmalyszko/php-local-vin-decoder/actions/workflows/ci.yml)
 
 Decode vehicle brand, model, year, country and region from a VIN number using a fast, local PHP library — no external API calls, no rate limits.
 
 ## Installation
 
 ```
-composer require mmalyszko/vinfast-php
+composer require mmalyszko/php-local-vin-decoder
 ```
 
 ## Usage
 
 ```php
-use Vinfast\Vin;
+use VinDecoder\Vin;
 
 $vin = new Vin('W0L0TGF487G011234');
 

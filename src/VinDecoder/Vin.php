@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinfast;
+namespace VinDecoder;
 
 /**
  * Lightweight VIN decoder for PHP 8+.

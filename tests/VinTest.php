@@ -1,9 +1,9 @@
 <?php
 
-namespace Vinfast\Tests;
+namespace VinDecoder\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Vinfast\Vin;
+use VinDecoder\Vin;
 
 /**
  * @internal

@@ -5,7 +5,7 @@
          testdox="true">
 
     <testsuites>
-        <testsuite name="Vinfast Test Suite">
+        <testsuite name="VinDecoder Test Suite">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
