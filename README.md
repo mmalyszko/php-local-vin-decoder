@@ -1,3 +1,4 @@
+⚠️ PROJECT MOVED: This library has been renamed to php-local-vin-decoder. The new namespace is VinDecoder. Please update your dependencies to the new package to receive future updates.
 
 # Lightweight VIN Decoder for PHP 8+
 
